@@ -102,3 +102,7 @@ Signals are ranked by confidence for comparison across tickers.
 
 ```bash
 pip install -r requirements.txt
+uvicorn app.main:app --reload
+API documentation: 
+http://127.0.0.1:8000/docs
+streamlit run app/streamlit/dashboard.py
